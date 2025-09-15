@@ -1,0 +1,56 @@
+.postDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.postContainer {
+    display: block;
+    width: 60%;
+    background: #ccc;
+    border-radius: 5px;
+    padding: 20px 40px;
+
+    .postInfo {
+        width: 80%;
+
+        p {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+}
+
+.comments {
+    width: 80%;
+    padding-top: 20px;
+
+    ul {
+        list-style: none;
+
+        .comment {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #666;
+            border-radius: 5px;
+
+            .commentInfo {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #000;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    background: #333;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
